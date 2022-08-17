@@ -31,7 +31,7 @@ export class App extends Component {
       return 0;
     }
     const positiveFb = this.state.good;
-    console.log(total);
+
     const result = (positiveFb / total) * 100;
     return Number(result.toFixed(2));
   }
